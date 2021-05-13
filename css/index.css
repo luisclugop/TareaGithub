@@ -1,0 +1,401 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style-type: none; }
+
+.HrOpciones {
+  border: #ffcf30 solid 1px; }
+
+/* Estilos Menu */
+.navbar {
+  background-color: #000000; }
+
+.logo img {
+  height: 50px;
+  width: auto; }
+
+/* Estilos Footer */
+#footer {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px; }
+
+#footer > .RedesSociales > img {
+  height: 50px;
+  width: auto;
+  margin: 15px; }
+
+#footer > .LogoFooter > img {
+  height: 50px;
+  width: auto;
+  margin: 15px; }
+
+#footer > .DerechosFooter {
+  margin: 15px; }
+
+/* Carrusel */
+.carousel .carousel-item {
+  height: 500px; }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .carousel .carousel-item {
+    height: 300px; } }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .carousel .carousel-item {
+    height: 300px; } }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .carousel .carousel-item {
+    height: 400px; } }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .carousel .carousel-item {
+    height: 400px; } }
+
+.carousel-item img {
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+  max-height: 500px; }
+
+/* Beneficios */
+.beneficios {
+  background-color: #000000;
+  color: #ffffff; }
+
+.beneficios .card {
+  background: none;
+  border-bottom: #ffcf30 solid 1px;
+  border-radius: 10px;
+  transition: transform .2s;
+  /* Animation */ }
+
+.beneficios .card:hover {
+  transform: scale(1.02); }
+
+/* Estilos Imagen Busqueda*/
+.ImagenMenu {
+  background-image: url("../img/Imagenindex.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-color: #cccccc;*/
+  width: 100%;
+  height: 600px; }
+
+.ImagenMenu .TituloCentrado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.ImagenMenu .TituloImagenMenu {
+  display: flex; }
+
+.ImagenMenu .TituloImagenMenuBlanco {
+  color: #ffffff; }
+
+.ImagenMenu .TituloImagenMenuAzul {
+  color: #1707AF; }
+
+/* Estilos Opciones */
+.Opciones {
+  background-color: #000000;
+  color: #ffffff; }
+
+.Opciones .Opcion {
+  height: 300px; }
+
+.Opciones .Opcion1 {
+  background-image: url("../img/cafe.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.Opciones .Opcion2 {
+  text-align: left;
+  padding: 50px; }
+
+.Opciones .Opcion3 {
+  text-align: right;
+  padding: 50px; }
+
+.Opciones .Opcion4 {
+  background-image: url("../img/restaurant.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.Opciones .h3Opciones {
+  font-size: 30px; }
+
+.Opciones .pOpciones {
+  font-size: 15px; }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .Opciones .h3Opciones {
+    font-size: 15px; }
+  .Opciones .pOpciones {
+    font-size: 9px; } }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .Opciones .h3Opciones {
+    font-size: 20px; }
+  .Opciones .pOpciones {
+    font-size: 10px; } }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .Opciones .h3Opciones {
+    font-size: 30px; }
+  .Opciones .pOpciones {
+    font-size: 15px; } }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .Opciones .h3Opciones {
+    font-size: 30px; }
+  .Opciones .pOpciones {
+    font-size: 15px; } }
+
+/* Planes */
+.BtnPlanes .btn-success {
+  background-color: #ffcf30 !important;
+  border: none !important;
+  border-radius: 20px !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  color: black !important;
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1) !important;
+  transition: transform .2s;
+  /* Animation */ }
+
+.BtnPlanes .btn-success:hover {
+  transform: scale(1.05); }
+
+.h4Planes {
+  color: #ffcf30; }
+
+/* Estilos Contacto.html */
+.contacto {
+  background-color: #262B2F;
+  text-align: center; }
+
+.contacto .FormContacto {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  padding: 20px; }
+
+.contacto .TituloContacto {
+  display: flex;
+  justify-content: center; }
+
+.contacto .TituloContacto .TituloContactoBlanco {
+  color: #ffffff; }
+
+.contacto .TituloContacto .TituloContactoAzul {
+  color: #1707AF; }
+
+.contacto .DescripcionContacto {
+  color: #ffffff; }
+
+/* Estilos Quienes Somos.html */
+.ImagenQuienesSomos {
+  text-align: center;
+  background-image: url("../img/fondo2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px; }
+
+.ImagenQuienesSomos .TituloQuienesSomos {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.ImagenQuienesSomos .TituloImagenQuienesSomos {
+  display: flex;
+  justify-content: center; }
+
+.ImagenQuienesSomos .TituloImagenQuienesSomosBlanco {
+  color: #ffffff; }
+
+.ImagenQuienesSomos .TituloImagenQuienesSomosAzul {
+  color: #1707AF; }
+
+.ImagenQuienesSomos .TextoImagenQuienesSomos {
+  font-weight: 400; }
+
+.btn-gradiente {
+  background-image: linear-gradient(to right, #232526 0%, #414345 51%, #232526 100%); }
+
+.btn-gradiente {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px; }
+
+.btn-gradiente:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none; }
+
+.btn-gradiente a {
+  color: #ffffff; }
+
+.CaracteristicasQuienesSomos {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff; }
+
+.CaracteristicasQuienesSomos .fa {
+  font-size: 50px;
+  margin-bottom: 8px; }
+
+.CaracteristicasQuienesSomos .card {
+  margin: 0px;
+  padding: 30px;
+  transition: transform .2s;
+  /* Animation */ }
+
+.CaracteristicasQuienesSomos .card:hover {
+  transform: scale(1.05); }
+
+.CaracteristicasQuienesSomos .card .TituloCaracteristicas {
+  text-transform: uppercase; }
+
+.CaracteristicasQuienesSomos .CardBlack {
+  background-color: #111111; }
+
+.CaracteristicasQuienesSomos .CardGrey {
+  background-color: #212121; }
+
+.AcercaNosotros {
+  background-color: #212121;
+  text-align: center;
+  color: #ffffff;
+  margin: 0px;
+  padding: 10px; }
+
+.AcercaNosotros .DivAcercaNosotros {
+  display: flex;
+  justify-content: center; }
+
+.AcercaNosotros .DivAcercaNosotros .TituloAcercaNosotrosBlanco {
+  color: #ffffff; }
+
+.AcercaNosotros .DivAcercaNosotros .TituloAcercaNosotrosAzul {
+  color: #1707AF; }
+
+.AcercaNosotros .AcercaNosotrosDescripcion {
+  padding: 0 50px 20px 50px;
+  /*Arriba - Derecha - Abajo - Izquierda */ }
+
+.AcercaNosotros .AcercaNosotrosPropiedades {
+  display: flex;
+  justify-content: center; }
+
+.AcercaNosotros .AcercaNosotrosPropiedades .card {
+  margin: 0px;
+  padding: 30px;
+  transition: transform .2s;
+  /* Animation */ }
+
+.AcercaNosotros .AcercaNosotrosPropiedades .card:hover {
+  transform: scale(1.05); }
+
+.AcercaNosotros .IconTitleAcercaNosotros {
+  display: flex;
+  justify-content: center; }
+
+.AcercaNosotros .AcercaNosotrosPropiedades .TituloCardAcercaNosotros {
+  text-transform: uppercase; }
+
+.AcercaNosotros .AcercaNosotrosPropiedades .TituloCardAcercaNosotros .fa {
+  font-size: 25px;
+  padding-right: 10px; }
+
+/* Estilos Servicios.html */
+.servicios {
+  background-color: #262B2F;
+  /*background-color: #111111;*/
+  /*background-color: #212121;*/ }
+
+.servicios .TituloServicios {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  padding: 20px; }
+
+.servicios .TituloServicios .TituloImagenServicios {
+  display: flex;
+  justify-content: center; }
+
+.servicios .TituloServicios .TituloServiciosBlanco {
+  color: #ffffff; }
+
+.servicios .TituloServicios .TituloServiciosAzul {
+  color: #1707AF; }
+
+.servicios .TituloServicios .TextoServicios {
+  color: #ffffff; }
+
+.servicios .NuestrosServicios {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  padding: 15px; }
+
+.servicios .NuestrosServicios .box {
+  padding: 30px; }
+
+.servicios .NuestrosServicios .img-box img {
+  height: 60px;
+  width: auto; }
+
+/* Estilos Restaurantes */
+.restaurantes {
+  display: grid;
+  grid-gap: 0;
+  grid-template-columns: 15% 85%; }
+
+.box {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px; }
+
+.ExplorarRestaurantes {
+  display: flex;
+  text-align: center; }
+
+.RestaurantesCocinaMexicana {
+  display: flex;
+  text-align: center; }
