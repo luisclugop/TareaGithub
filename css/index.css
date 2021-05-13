@@ -217,130 +217,32 @@ ul {
 .contacto .DescripcionContacto {
   color: #ffffff; }
 
-/* Estilos Quienes Somos.html */
-.ImagenQuienesSomos {
-  text-align: center;
-  background-image: url("../img/fondo2.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 600px; }
-
-.ImagenQuienesSomos .TituloQuienesSomos {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
-
-.ImagenQuienesSomos .TituloImagenQuienesSomos {
-  display: flex;
-  justify-content: center; }
-
-.ImagenQuienesSomos .TituloImagenQuienesSomosBlanco {
-  color: #ffffff; }
-
-.ImagenQuienesSomos .TituloImagenQuienesSomosAzul {
-  color: #1707AF; }
-
-.ImagenQuienesSomos .TextoImagenQuienesSomos {
-  font-weight: 400; }
-
-.btn-gradiente {
-  background-image: linear-gradient(to right, #232526 0%, #414345 51%, #232526 100%); }
-
-.btn-gradiente {
-  margin: 10px;
-  padding: 15px 45px;
-  text-align: center;
-  text-transform: uppercase;
-  transition: 0.5s;
-  background-size: 200% auto;
-  color: white;
-  box-shadow: 0 0 20px #eee;
-  border-radius: 10px; }
-
-.btn-gradiente:hover {
-  background-position: right center;
-  /* change the direction of the change here */
-  color: #fff;
-  text-decoration: none; }
-
-.btn-gradiente a {
-  color: #ffffff; }
-
-.CaracteristicasQuienesSomos {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  color: #ffffff; }
-
-.CaracteristicasQuienesSomos .fa {
-  font-size: 50px;
-  margin-bottom: 8px; }
-
-.CaracteristicasQuienesSomos .card {
-  margin: 0px;
-  padding: 30px;
-  transition: transform .2s;
-  /* Animation */ }
-
-.CaracteristicasQuienesSomos .card:hover {
-  transform: scale(1.05); }
-
-.CaracteristicasQuienesSomos .card .TituloCaracteristicas {
-  text-transform: uppercase; }
-
-.CaracteristicasQuienesSomos .CardBlack {
-  background-color: #111111; }
-
-.CaracteristicasQuienesSomos .CardGrey {
-  background-color: #212121; }
-
-.AcercaNosotros {
-  background-color: #212121;
-  text-align: center;
-  color: #ffffff;
-  margin: 0px;
-  padding: 10px; }
-
-.AcercaNosotros .DivAcercaNosotros {
-  display: flex;
-  justify-content: center; }
-
-.AcercaNosotros .DivAcercaNosotros .TituloAcercaNosotrosBlanco {
-  color: #ffffff; }
-
-.AcercaNosotros .DivAcercaNosotros .TituloAcercaNosotrosAzul {
-  color: #1707AF; }
-
-.AcercaNosotros .AcercaNosotrosDescripcion {
-  padding: 0 50px 20px 50px;
-  /*Arriba - Derecha - Abajo - Izquierda */ }
-
-.AcercaNosotros .AcercaNosotrosPropiedades {
-  display: flex;
-  justify-content: center; }
-
-.AcercaNosotros .AcercaNosotrosPropiedades .card {
-  margin: 0px;
-  padding: 30px;
-  transition: transform .2s;
-  /* Animation */ }
-
-.AcercaNosotros .AcercaNosotrosPropiedades .card:hover {
-  transform: scale(1.05); }
-
-.AcercaNosotros .IconTitleAcercaNosotros {
-  display: flex;
-  justify-content: center; }
-
-.AcercaNosotros .AcercaNosotrosPropiedades .TituloCardAcercaNosotros {
-  text-transform: uppercase; }
-
-.AcercaNosotros .AcercaNosotrosPropiedades .TituloCardAcercaNosotros .fa {
-  font-size: 25px;
-  padding-right: 10px; }
+/* Estilos Quienes.html */
+.caracteristicas {
+  background-color: #000000;
+  margin: 0; }
+  .caracteristicas .card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: none !important;
+    border: #ffcf30 solid 1px;
+    border-radius: 10px;
+    color: #ffffff; }
+  .caracteristicas .AcercaNosotros {
+    color: #ffffff;
+    padding-top: 20px; }
+    .caracteristicas .AcercaNosotros .acerca {
+      height: 200px !important;
+      width: auto;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .caracteristicas .AcercaNosotros .acerca1 {
+      background-image: url(../img/acerca1.png); }
+    .caracteristicas .AcercaNosotros .acerca2 {
+      background-image: url(../img/acerca2.png); }
+    .caracteristicas .AcercaNosotros .acerca3 {
+      background-image: url(../img/acerca3.png); }
 
 /* Estilos Servicios.html */
 .servicios {
