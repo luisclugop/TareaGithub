@@ -293,6 +293,7 @@ ul{
 .caracteristicas{
 	background-color: #000000;
 	margin: 0;
+	color: #ffffff;
 
 	.card{
 		margin-top: 20px;
@@ -300,7 +301,9 @@ ul{
 		background: none !important;
 		border: #ffcf30 solid 1px;
 		border-radius: 10px;
-		color: #ffffff;
+		.fa{
+			font-size: 50px;
+		}
 	}
 
 	.AcercaNosotros{
@@ -324,65 +327,86 @@ ul{
 		.acerca3{
 			background-image: url(../img/acerca3.png);
 		}
-
-
 	}
 }
-
-
-
-
-
 
 
 /* Estilos Servicios.html */
 
 .servicios{
-	background-color: #262B2F;
-	/*background-color: #111111;*/
-	/*background-color: #212121;*/
+	background-color: #ffffff;
+	margin: 0;
+	color: #000000;
+
+	.card{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		background: none !important;
+		border: #ffcf30 solid 1px;
+		border-radius: 10px;
+		img{
+			height: 60px;
+			width: auto;
+		}
+	}
 }
 
-.servicios .TituloServicios{
-	position: relative;
-  	display: inline-block;
-  	text-align: center;
-  	padding: 20px;
-}
-
-.servicios .TituloServicios .TituloImagenServicios{
-	display: flex;
-	justify-content: center;
-}
-
-.servicios .TituloServicios .TituloServiciosBlanco{
+.serviciosGaleria{
+	background-color: #000000;
+	margin: 0;
 	color: #ffffff;
+
+	.Galeria{
+		height: 200px !important;
+		width: auto;
+		background-position: center center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    transition: transform .7s; /* Animation */
+	}
+
+	.Galeria:hover{
+		transform: scale(1.03);
+	}
+
+	.Galeria1{
+    	background-image: url(../img/galeria/galeria1.png);
+    }
+
+    .Galeria2{
+    	background-image: url(../img/galeria/galeria2.png);
+    }
+
+    .Galeria3{
+    	background-image: url(../img/galeria/galeria3.png);
+    }
+
+    .Galeria4{
+    	background-image: url(../img/galeria/galeria4.png);
+    }
+
+    .Galeria5{
+    	background-image: url(../img/galeria/galeria5.png);
+    }
+
+    .Galeria6{
+    	background-image: url(../img/galeria/galeria6.png);
+    }
+
+    .Galeria7{
+    	background-image: url(../img/galeria/galeria7.png);
+    }
+
+    .Galeria8{
+    	background-image: url(../img/galeria/galeria8.png);
+    }
+
+    .Galeria9{
+    	background-image: url(../img/galeria/galeria9.png);
+    }
 }
 
-.servicios .TituloServicios .TituloServiciosAzul{
-	color: #1707AF;
-}
 
-.servicios .TituloServicios .TextoServicios{
-	color: #ffffff;
-}
-
-.servicios .NuestrosServicios{
-	display: flex;
-	justify-content: center;
-	text-align: center;
-	color: #ffffff;
-	padding: 15px;
-}
-
-.servicios .NuestrosServicios .box{
-	padding: 30px;
-}
-
-.servicios .NuestrosServicios .img-box img{
-	height: 60px;
-	width: auto;
-}
 
 /* Estilos Restaurantes */
 
