@@ -282,17 +282,33 @@ ul {
 .restaurantes {
   display: grid;
   grid-gap: 0;
-  grid-template-columns: 15% 85%; }
-
-.box {
+  grid-template-columns: 20% 80%;
   background-color: #000000;
-  color: #fff;
-  padding: 20px; }
+  color: #ffffff; }
+  .restaurantes .box {
+    padding: 20px; }
+  .restaurantes .TituloListas {
+    font-weight: 700; }
+  .restaurantes li {
+    padding-top: 10px;
+    padding-left: 10px; }
 
-.ExplorarRestaurantes {
-  display: flex;
-  text-align: center; }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .restaurantes {
+    grid-template-columns: 35% 65%; } }
 
-.RestaurantesCocinaMexicana {
-  display: flex;
-  text-align: center; }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .restaurantes {
+    grid-template-columns: 30% 70%; } }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .restaurantes {
+    grid-template-columns: 25% 75%; } }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .restaurantes {
+    grid-template-columns: 20% 80%; } }
