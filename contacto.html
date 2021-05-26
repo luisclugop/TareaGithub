@@ -53,65 +53,60 @@
 		</div>
 	</nav>
 
-    <div class="contacto">
-    	<div class="FormContacto">
-    		<div class="TituloContacto">
-	    		<h1 class="TituloContactoBlanco">Contactate con</h1>
-	    		<h1 class="TituloContactoAzul">Nosotros</h1>
-	    	</div>
-    		<p class="DescripcionContacto">Bienvenido a nuestro formulario de contacto. Regístrese en el siguiente formulario para recibir toda la información necesaria para su suscripción.</p>
-    		<hr>
+	<div class="container-fluid contacto p-5 text-center">
+		
+		<p class="h2">Contáctate con Nosotros</p>
+		<hr class="HrOpciones">
+		<div class="container">
+			<p class="lead">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, consequuntur sint molestias nesciunt, corporis optio nam quis alias quam reprehenderit distinctio enim tempora soluta, eos sunt harum assumenda ipsa pariatur.
+			</p>
+		</div>
 
-    		<form class="p-4 rounded bg-secondary" >
-  				<div class="form-group row">
-  					<label for="email" class="col-sm-2 col-form-label">Email</label>
-					<div class="col-sm-10">
-						<input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Email">
-					</div>				    
+		<div class="container p-4 text-center">
+			<form class="rounded p-4">
+			  	<div class="form-outline mb-4">
+			  		<label class="form-label" for="email">Email</label>
+			    	<input type="email" id="email" class="form-control" placeholder="Email"/>
+			  	</div>
+
+			  	<div class="form-outline mb-4">
+			  		<label class="form-label" for="nombre">Nombre</label>
+			    	<input type="text" id="nombre" class="form-control" placeholder="Nombre"/>
+			  	</div>
+
+			  	<div class="form-outline mb-4">
+			  		<label class="form-label" for="apellidoPaterno">Apellido Paterno</label>
+			    	<input type="text" id="apellidoPaterno" class="form-control" placeholder="Apellido Paterno"/>
+			  	</div>
+
+			  	<div class="form-outline mb-4">
+			  		<label class="form-label" for="apellidoMaterno">Apellido Materno</label>
+			    	<input type="text" id="apellidoMaterno" class="form-control" placeholder="Apellido Materno"/>
+			  	</div>
+			  	
+			  	<div class="form-outline mb-4">
+			  		<label class="form-label" for="sexo">Sexo</label>
+				  	<select class="custom-select" id="sexo">
+					    <option selected>Escoger...</option>
+					    <option value="1">Mujer</option>
+					    <option value="2">Hombre</option>
+					</select>
 				</div>
 
-				<div class="form-group row">
-				    <label for="nombre" class="col-sm-2 col-form-label">Nombre:</label>
-				    <div class="col-sm-10">
-				    	<input type="nombre" class="form-control" id="nombre" aria-describedby="nombre" placeholder="Nombre">
-					</div>
+				<div class="form-outline mb-4">
+			  		<label class="form-label" for="tipoRestaurante">Tipo de Restaurante:</label>
+				  	<select class="custom-select" id="tipoRestaurante">
+					    <option value="1">Restaurante</option>
+		  				<option value="2">Cafetería</option>
+		  				<option value="3">Servicio a Domicilio</option>
+					</select>
 				</div>
 
-				<div class="form-group row">  
-				    <label for="apellido" class="col-sm-2 col-form-label">Apellido:</label>
-				    <div class="col-sm-10">
-				    	<input type="apellido" class="form-control" id="apellido" aria-describedby="apellido" placeholder="Apellido">
-				    </div>
-				</div>
-
-				<div class="form-group row">
-					<h3 class="col-sm-12 col-form-label">Sexo:</h3>
-				    <label for="mujer" class="col-sm-1 col-form-label">Mujer</label>
-				    <div class="col-sm-5">
-				    	<input type="radio" class="form-control" id="mujer" name="mujer" aria-describedby="mujer" value="mujer">
-				    </div>
-
-				    <label for="hombre" class="col-sm-1 col-form-label">Hombre</label>
-				    <div class="col-sm-5">
-				    	<input type="radio" class="form-control" id="hombre" name="hombre" aria-describedby="hombre" value="hombre">
-				    </div>
-				</div>
-
-				<div class="form-group row">
-					<label for="TipoRestaurante" class="col-sm-2 col-form-label">Tipo de Restaurante:</label>
-					<div class="col-sm-10">
-						<select class="form-control form-control-lg" name="TipoRestaurante" id="TipoRestaurante">
-		  					<option value="restaurante">Restaurante</option>
-		  					<option value="cafeteria">Cafetería</option>
-		  					<option value="ServicioDomicilio">Servicio a Domicilio</option>
-		  				</select>
-		  			</div>
-	  			</div>
-
-	  			<button type="button" class="btn btn-dark btn-md">Contáctanos</button>
-        	</form>
-    	</div>
-    </div>
+			  	<button type="submit" class="btn btn-warning btn-block">Contáctanos</button>
+			</form>
+		</div>
+	</div>
 
     <!-- Footer -->
 

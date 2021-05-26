@@ -260,33 +260,16 @@ ul{
 /* Estilos Contacto.html */
 
 .contacto{
-	background-color: #262B2F;
+	background-color: #000000;
 	text-align:center;
-}
-
-.contacto .FormContacto{
-	position: relative;
-  	display: inline-block;
-  	text-align: center;
-  	padding: 20px;
-}
-
-.contacto .TituloContacto{
-	display: flex;
-	justify-content: center;
-}
-
-.contacto .TituloContacto .TituloContactoBlanco{
 	color: #ffffff;
+
+	form{
+		border: #ffcf30 solid 1px;
+	}
 }
 
-.contacto .TituloContacto .TituloContactoAzul{
-	color: #1707AF;
-}
 
-.contacto .DescripcionContacto{
-	color: #ffffff;
-}
 
 /* Estilos Quienes.html */
 
