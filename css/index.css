@@ -80,9 +80,7 @@ ul {
 .beneficios .card {
   background: none;
   border-bottom: #ffcf30 solid 1px;
-  border-radius: 10px;
-  transition: transform .2s;
-  /* Animation */ }
+  border-radius: 10px; }
 
 .beneficios .card:hover {
   transform: scale(1.02); }
@@ -292,6 +290,23 @@ ul {
   .restaurantes li {
     padding-top: 10px;
     padding-left: 10px; }
+  .restaurantes .card {
+    background: none;
+    color: #ffffff;
+    width: 100%;
+    height: auto;
+    padding: 10px; }
+    .restaurantes .card li {
+      padding-top: 0;
+      padding-left: 0;
+      padding-right: 10px; }
+    .restaurantes .card p {
+      margin-bottom: 0 !important; }
+    .restaurantes .card img {
+      transition: transform .2s;
+      /* Animation */ }
+    .restaurantes .card img:hover {
+      transform: scale(1.05); }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {

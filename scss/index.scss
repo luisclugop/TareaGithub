@@ -108,7 +108,7 @@ ul{
 	background: none;
 	border-bottom: #ffcf30 solid 1px;
 	border-radius: 10px;
-	transition: transform .2s; /* Animation */
+	
 }
 
 .beneficios .card:hover{
@@ -409,6 +409,33 @@ ul{
 	li{
 		padding-top: 10px;
 		padding-left: 10px;
+	}
+
+	.card{
+		background: none;
+		color: #ffffff;
+		width: 100%;
+		height: auto;
+		// border: #ffcf30 solid 1px;
+		padding: 10px;
+
+		li{
+			padding-top: 0;
+			padding-left: 0;
+			padding-right: 10px;
+		}
+
+		p{
+			margin-bottom: 0 !important;
+		}
+
+		img{
+			transition: transform .2s; /* Animation */
+		}
+
+		img:hover{
+			transform: scale(1.05);
+		}
 	}
 }
 
