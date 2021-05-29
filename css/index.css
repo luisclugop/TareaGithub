@@ -299,7 +299,24 @@ ul {
     .restaurantes .card li {
       padding-top: 0;
       padding-left: 0;
-      padding-right: 10px; }
+      padding-right: 10px;
+      font-size: 15px;
+      /* Extra small devices (phones, 600px and down) */
+      /* Small devices (portrait tablets and large phones, 600px and up) */
+      /* Medium devices (landscape tablets, 768px and up) */
+      /* Large devices (laptops/desktops, 992px and up) */ }
+      @media only screen and (max-width: 600px) {
+        .restaurantes .card li li {
+          font-size: 10px; } }
+      @media only screen and (min-width: 600px) {
+        .restaurantes .card li li {
+          font-size: 10px; } }
+      @media only screen and (min-width: 768px) {
+        .restaurantes .card li li {
+          font-size: 15px; } }
+      @media only screen and (min-width: 992px) {
+        .restaurantes .card li li {
+          font-size: 15px; } }
     .restaurantes .card p {
       margin-bottom: 0 !important; }
     .restaurantes .card img {
